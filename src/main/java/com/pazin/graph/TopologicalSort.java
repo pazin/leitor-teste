@@ -46,6 +46,7 @@ public final class TopologicalSort {
      * @return A topological sort of that graph.
      * @throws IllegalArgumentException If the graph is not a DAG.
      */
+
     public static <T> List<T> sort(DirectedGraph<T> g) {
         /* Construct the reverse graph from the input graph. */
         DirectedGraph<T> gRev = reverseGraph(g);
