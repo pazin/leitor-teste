@@ -75,6 +75,12 @@ public class LeitorConfig {
 	}
 	
 	
+	/**
+	 * 
+	 * ESSE AQUI DEU ERRADO USANDO O JGRAPHT
+	 * 
+	 * @return
+	 */
 	@Bean("grafoDependencia2")
 	public DirectedAcyclicGraph<String, String> getGrafo2(){
 
